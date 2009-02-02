@@ -1,0 +1,19 @@
+= Share Snippets
+
+Exmaple configuration:
+
+--- 
+- :name: header
+  :file: /Users/james/header.txt
+  :title: Confluence
+  :breadcrumb: Confluence
+  :slug: /wiki
+  :before: <html><head></head><body>  
+  :after:  
+- :name: footer
+  :file: /Users/james/footer.txt
+  :title: Confluence
+  :breadcrumb: Confluence
+  :slug: /wiki
+  :before:  
+  :after:  </body></html>
